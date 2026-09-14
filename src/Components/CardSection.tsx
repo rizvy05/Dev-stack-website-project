@@ -34,7 +34,7 @@ toast.error('Cleared all items from your stack');};
           Pick one technology per category to build your ideal stack.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start relative">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-15 items-start relative">
   <div className="lg:col-span-3">
     <CardDesign 
       tech={tech} 
