@@ -1,4 +1,4 @@
-import './App.css'
+
 import Navbar from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import CardSection from './Components/CardSection'
@@ -7,7 +7,7 @@ import type { Technology } from './Components/CardType'
 import { Suspense } from 'react'
 
 const cardFetch=async():Promise<Technology[]>=>{
-const res=await fetch('/public/Data.json');
+const res=await fetch('/Data.json');
 const data=await res.json();
 return data;
 }
