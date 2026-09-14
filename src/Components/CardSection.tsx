@@ -42,7 +42,7 @@ toast.error('Cleared all items from your stack');};
       onSelectTech={handleSelectTech} 
     />
   </div>
-  <div className="lg:col-span-1 sticky top-6 self-start">
+  <div className="lg:col-span-1 sticky top-14 self-start">
     <StackItems 
       selected={selected} 
       setIsSelected={setIsSelected} 

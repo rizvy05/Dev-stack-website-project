@@ -4,14 +4,12 @@ import type { Technology } from './CardType';
 interface StackItemsProps {
   selected: Technology[];
   setIsSelected: Dispatch<SetStateAction<Technology[]>>;
-  onRemoveAll: () => void;
-}
+  onRemoveAll: () => void;}
 const StackItems = ({ selected, setIsSelected, onRemoveAll }: StackItemsProps) => {
-return (<div className="sticky top-15 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm w-full">
+return (<div className=" bg-white rounded-2xl border border-gray-100 p-6 shadow-sm w-full">
 <div className="mb-6 ">
  <h2 className="text-xl font-bold text-slate-900">Your Stack</h2>
 <p className="text-xs text-slate-400 mt-1 font-medium">
-
 {selected.length} {selected.length === 1 ? 'Technology' : 'Technologies'} Selected
 </p>
 </div>
